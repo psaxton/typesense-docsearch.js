@@ -1,7 +1,7 @@
 {
   "name": "typesense-docsearch.js",
   "description": "JavaScript package for DocSearch, adapted to work with Typesense",
-  "version": "3.4.1",
+  "version": "3.6.0",
   "license": "MIT",
   "homepage": "https://typesense.org/docs/latest/guide/docsearch.html",
   "repository": "typesense/docsearch.js",
@@ -36,7 +36,7 @@
     "watch": "watch \"yarn on:change\" --ignoreDirectoryPattern \"/dist/\""
   },
   "dependencies": {
-    "preact": "^10.0.0",
-    "typesense-docsearch-react": "3.4.1"
+    "typesense-docsearch-react": "3.6.0",
+    "preact": "^10.0.0"
   }
 }
