@@ -19,9 +19,9 @@ So, if you're using one of the following tools, checkout their documentation to 
 - [Docsy][15] - [Configure Algolia DocSearch][16]
 - [dumi][17] - [algolia][18]
 - [Lotus Docs][19] - [Enabling the DocSearch Plugin][20]
-- [Sphinx](https://www.sphinx-doc.org/en/master/) - [Algolia DocSearch for Sphinx](https://sphinx-docsearch.readthedocs.io/en/latest/)
+- [Sphinx][23] - [Algolia DocSearch for Sphinx][24]
 
-If you're maintaining a similar tool and want us to add you to the list, [feel free to make a pull request](https://github.com/algolia/docsearch/edit/main/packages/website/docs/integrations.md) and [contribute to Code Exchange](https://www.algolia.com/developers/code-exchange/contribute/). We're happy to help.
+If you're maintaining a similar tool and want us to add you to the list, [feel free to make a pull request][25]. We're happy to help.
 
 [1]: https://v1.docusaurus.io/
 [2]: https://v1.docusaurus.io/docs/en/search
@@ -45,3 +45,6 @@ If you're maintaining a similar tool and want us to add you to the list, [feel f
 [20]: https://lotusdocs.dev/docs/guides/features/docsearch/#enabling-the-docsearch-plugin
 [21]: https://vitepress.dev/
 [22]: https://vitepress.dev/reference/default-theme-search#search
+[23]: https://www.sphinx-doc.org/en/master/
+[24]: https://sphinx-docsearch.readthedocs.io/en/latest/
+[25]: https://github.com/typesense/typesense-docsearch.js/edit/main/packages/website/docs/integrations.md

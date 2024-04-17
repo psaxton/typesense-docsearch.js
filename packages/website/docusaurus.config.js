@@ -9,10 +9,10 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
     title: 'DocSearch by Algolia',
     tagline:
       'The best search experience for docs, integrated in minutes, for free.',
-    url: 'https://docsearch.algolia.com',
+    url: 'https://typesense.org/docs/guide/docsearch.html',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
-    organizationName: 'Algolia',
+    organizationName: 'Typesense',
     projectName: 'DocSearch',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'throw',
@@ -25,7 +25,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
             path: 'docs',
             sidebarPath: 'sidebars.js',
             editUrl:
-              'https://github.com/algolia/docsearch/edit/main/packages/website/',
+              'https://github.com/typesense/docsearch.js/edit/main/packages/website/',
             versions: {
               current: {
                 label: 'current',
@@ -45,24 +45,12 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
     themeConfig:
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
-        algolia: {
-          appId: 'R2IYF7ETH7',
-          apiKey: '599cec31baffa4868cae4e79f180729b',
-          indexName: 'docsearch',
-          contextualSearch: true,
-        },
-        metadata: [
-          {
-            name: 'google-site-verification',
-            content: '23yIHmCD_xnJb_6e3s-w7M29Kydahk-d86ObMWOrvRg',
-          },
-        ],
         navbar: {
           hideOnScroll: true,
           logo: {
-            alt: 'DocSearch x Algolia',
-            src: 'img/docsearch-x-algolia-logo-light-mode.png',
-            srcDark: 'img/docsearch-x-algolia-logo-dark-mode.png',
+            alt: 'DocSearch',
+            src: 'img/docsearch-logo.svg',
+            srcDark: 'img/docsearch-logo-white.svg',
             className: 'docsearch-nav-logo',
           },
           items: [
@@ -83,7 +71,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
               position: 'right',
             },
             {
-              href: 'https://github.com/algolia/docsearch',
+              href: 'https://github.com/typesense/docsearch.js',
               position: 'right',
               className: 'header-github-link',
             },
@@ -96,7 +84,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
         },
         announcementBar: {
           content:
-            '⭐️ If you like DocSearch, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/algolia/docsearch">GitHub</a>! ⭐️',
+            '⭐️ If you like DocSearch, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/typesense/docsearch.js">GitHub</a>! ⭐️',
         },
         footer: {
           links: [
@@ -126,11 +114,11 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
                 },
                 {
                   label: 'Issues',
-                  to: 'https://github.com/algolia/docsearch/issues',
+                  to: 'https://github.com/typesense/docsearch.js/issues',
                 },
                 {
                   label: 'Privacy',
-                  to: 'https://www.algolia.com/policies/privacy/',
+                  to: 'https://cloud.typesense.org/legal/privacy',
                 },
               ],
             },
@@ -139,7 +127,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
               items: [
                 {
                   label: 'Discord',
-                  to: 'https://discord.com/invite/W7kYfh7FKQ',
+                  to: 'https://discord.com/invite/bRTacwYrfX',
                 },
               ],
             },
@@ -148,26 +136,22 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
               items: [
                 {
                   label: 'GitHub',
-                  to: 'https://github.com/algolia/docsearch',
+                  to: 'https://github.com/typesense/docsearch.js',
                 },
                 {
                   label: 'Twitter',
                   to: 'https://twitter.com/docsearch_',
-                },
-                {
-                  label: 'Algolia Blog',
-                  to: 'https://algolia.com/blog/',
                 },
               ],
             },
           ],
           logo: {
             alt: 'Algolia',
-            src: 'img/Algolia-logo-blue.svg',
-            srcDark: 'img/Algolia-logo-white.svg',
+            src: 'img/docsearch-logo.svg',
+            srcDark: 'img/docsearch-logo-white.svg',
             width: 200,
           },
-          copyright: 'DocSearch 2015-now • Designed and built by Algolia',
+          copyright: 'DocSearch 2015-now • Designed and built by Algolia | This is a fork of Algolia\'s awesome DocSearch.js library',
         },
         image: 'img/og_image.png',
         prism: {

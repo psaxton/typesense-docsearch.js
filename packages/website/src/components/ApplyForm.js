@@ -44,7 +44,7 @@ function ApplyForm() {
       data[key] = value;
     });
     if (!data.repoURL) {
-      data.repoURL = 'https://www.github.com/algolia/docsearch';
+      data.repoURL = 'https://www.github.com/typesense/docsearch.js';
     }
     const body = JSON.stringify(data);
 
@@ -230,17 +230,13 @@ function ApplyForm() {
               required={true}
               id="opensource"
               name="opensource"
-              aria-label="Confirm I understand that this is a Free Service as described in Algolia's Terms of Service and Algolia's Special Free Service Terms"
+              aria-label="Confirm I am owner of the website"
               type="checkbox"
               className="uil-mr-8"
             />
-            I understand that this is a Free Service as described in Algolia's{' '}
-            <InlineLink href="https://www.algolia.com/policies/terms/">
-              Terms of Service
-            </InlineLink>{' '}
-            and Algolia's{' '}
-            <InlineLink href="https://www.algolia.com/policies/free-services-terms/">
-              Special Free Services Terms
+            I'm the owner of the website and I have{' '}
+            <InlineLink href={withBaseUrl('docs/who-can-apply')}>
+              read the checklist
             </InlineLink>
             .
           </LabelText>
@@ -258,8 +254,8 @@ function ApplyForm() {
         </div>
 
         <Text small={true} className="uil-ta-center">
-          <InlineLink href="https://www.algolia.com/policies/privacy/">
-            Refer to Algolia's Privacy Policy for more information on how we use
+          <InlineLink href="https://cloud.typesense.org/legal/privacy">
+            Refer to Typesense's Privacy Policy for more information on how we use
             and protect your data
           </InlineLink>
         </Text>

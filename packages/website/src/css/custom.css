@@ -21,7 +21,7 @@ html[data-theme='dark'] {
   --ifm-menu-color-background-active: #21243d;
 }
 
-/* DocSearch x Algolia logo */
+/* DocSearch logo */
 @media (max-width: 565px) {
   .navbar__logo .docsearch-nav-logo {
     width: 22%;
@@ -30,7 +30,7 @@ html[data-theme='dark'] {
   }
 }
 
-/* DocSearch x Algolia logo in sidebar */
+/* DocSearch logo in sidebar */
 @media (min-width: 997px) {
   .theme-doc-sidebar-container .docsearch-nav-logo {
     height: auto;

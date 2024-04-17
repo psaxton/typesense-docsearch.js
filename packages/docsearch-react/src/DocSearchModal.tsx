@@ -243,6 +243,7 @@ export function DocSearchModal({
                 snippet_threshold: 8,
                 highlight_affix_num_tokens: 4,
                 sendItemClickEvent: insightsActive,
+                ...typesenseSearchParameters,
               },
             ])
             .catch((error) => {

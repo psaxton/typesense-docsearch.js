@@ -2,74 +2,74 @@
 
 Merges the following upstream changes from @algolia/docsearch
 
-## [3.6.0](https://github.com/algolia/docsearch/compare/v3.5.2...v3.6.0) (2024-03-06)
-
-
-#### Bug Fixes
-
-* add accessible label to SearchBox input ([#2193](https://github.com/algolia/docsearch/issues/2193)) ([df60b8e](https://github.com/algolia/docsearch/commit/df60b8ebe89c80ce3d00b80d94e95b6fd86edd19))
-* **docs:** sidebar logo size ([#2125](https://github.com/algolia/docsearch/issues/2125)) ([572b117](https://github.com/algolia/docsearch/commit/572b117ce6ab3f131b18e345e7e8384685a2a8e0))
-* **website:** update discord link ([#2141](https://github.com/algolia/docsearch/issues/2141)) ([874e16a](https://github.com/algolia/docsearch/commit/874e16a5d42e8657e6ab2653e9638cd2282ba408))
-
-
-#### Features
-
-* add additional scss output ([#2201](https://github.com/algolia/docsearch/issues/2201)) ([fe3ac9e](https://github.com/algolia/docsearch/commit/fe3ac9e782c2bc84e39b61e3749f067c59f56129))
-* add keypress effect to DocSearchButton ([#2087](https://github.com/algolia/docsearch/issues/2087)) ([4c82640](https://github.com/algolia/docsearch/commit/4c82640022154dd32cc9d3e28a7ae2fba786da8d))
-
-
-
-### [3.5.2](https://github.com/algolia/docsearch/compare/v3.5.1...v3.5.2) (2023-08-11)
-
-
-#### Fixes
-
-* Updates `algoliasearch` package version ([cc90789](https://github.com/algolia/docsearch/commit/cc9078929032e7360fd629ed43071e698a54bab6))
-* Adds `search-insights` as options peer dependency ([cc90789](https://github.com/algolia/docsearch/commit/cc9078929032e7360fd629ed43071e698a54bab6))
-
-### [3.5.1](https://github.com/algolia/docsearch/compare/v3.5.0...v3.5.1) (2023-06-15)
-
-
-#### Features
-
-* **api:** support Insights on search results click ([#1916](https://github.com/algolia/docsearch/issues/1916)) ([cacade4](https://github.com/algolia/docsearch/commit/cacade4c65878877c5c7433281299e3a5f9a2541))
-
-
-## [3.5.0](https://github.com/algolia/docsearch/compare/v3.4.0...v3.5.0) (2023-06-08)
-
-
-#### Features
-
-* **api:** allow insights options to be forwarded to Autocomplete ([#1904](https://github.com/algolia/docsearch/issues/1904)) ([26691a5](https://github.com/algolia/docsearch/commit/26691a5c8abfe107a6737d66d3f02c2cac50553b))
-
-
-
-## [3.4.0](https://github.com/algolia/docsearch/compare/v3.3.5...v3.4.0) (2023-05-24)
-
-
-#### Features
-
-* implement maxResultsPerGroup prop ([#1891](https://github.com/algolia/docsearch/issues/1891)) ([f82a733](https://github.com/algolia/docsearch/commit/f82a73367a02453609454dc26d3cf2b6d901dd75))
-
-
-
-### [3.3.5](https://github.com/algolia/docsearch/compare/v3.3.4...v3.3.5) (2023-05-17)
-
-
-#### Bug Fixes
-
-* support Chrome autofill when `event.key` is undefined ([#1888](https://github.com/algolia/docsearch/issues/1888)) ([3f15fdb](https://github.com/algolia/docsearch/commit/3f15fdb3192b654dda14c36a5780f49fe309329c)), closes [#1887](https://github.com/algolia/docsearch/issues/1887)
-
-
-
-### [3.3.4](https://github.com/algolia/docsearch/compare/v3.3.3...v3.3.4) (2023-04-26)
-
-
-#### Bug Fixes
-
-* prevent calling `onClose()` when `shiftKey`, `ctrlKey` or `metaKey` is pressed ([#1870](https://github.com/algolia/docsearch/issues/1870)) ([b9a3899](https://github.com/algolia/docsearch/commit/b9a38991e411c969459c2bac8a75f29576b46906))
-* type of lvl0 ([#1859](https://github.com/algolia/docsearch/issues/1859)) ([8f48ebb](https://github.com/algolia/docsearch/commit/8f48ebb330c01be426f06d0dea2855e4ca65834b))
-
+> ## [3.6.0](https://github.com/algolia/docsearch/compare/v3.5.2...v3.6.0) (2024-03-06)
+>
+>
+> #### Bug Fixes
+>
+> * add accessible label to SearchBox input ([#2193](https://github.com/algolia/docsearch/issues/2193)) ([df60b8e](https://github.com/algolia/docsearch/commit/> df60b8ebe89c80ce3d00b80d94e95b6fd86edd19))
+> * **docs:** sidebar logo size ([#2125](https://github.com/algolia/docsearch/issues/2125)) ([572b117](https://github.com/algolia/docsearch/commit/572b117ce6ab3f131b18e345e7e8384685a2a8e0))
+> * **website:** update discord link ([#2141](https://github.com/algolia/docsearch/issues/2141)) ([874e16a](https://github.com/algolia/docsearch/commit/> 874e16a5d42e8657e6ab2653e9638cd2282ba408))
+>
+>
+> #### Features
+>
+> * add additional scss output ([#2201](https://github.com/algolia/docsearch/issues/2201)) ([fe3ac9e](https://github.com/algolia/docsearch/commit/fe3ac9e782c2bc84e39b61e3749f067c59f56129))
+> * add keypress effect to DocSearchButton ([#2087](https://github.com/algolia/docsearch/issues/2087)) ([4c82640](https://github.com/algolia/docsearch/commit/> 4c82640022154dd32cc9d3e28a7ae2fba786da8d))
+>
+>
+>
+> ### [3.5.2](https://github.com/algolia/docsearch/compare/v3.5.1...v3.5.2) (2023-08-11)
+>
+>
+> #### Fixes
+>
+> * Updates `algoliasearch` package version ([cc90789](https://github.com/algolia/docsearch/commit/cc9078929032e7360fd629ed43071e698a54bab6))
+> * Adds `search-insights` as options peer dependency ([cc90789](https://github.com/algolia/docsearch/commit/cc9078929032e7360fd629ed43071e698a54bab6))
+>
+> ### [3.5.1](https://github.com/algolia/docsearch/compare/v3.5.0...v3.5.1) (2023-06-15)
+>
+>
+> #### Features
+>
+> * **api:** support Insights on search results click ([#1916](https://github.com/algolia/docsearch/issues/1916)) ([cacade4](https://github.com/algolia/docsearch/commit/> cacade4c65878877c5c7433281299e3a5f9a2541))
+>
+>
+> ## [3.5.0](https://github.com/algolia/docsearch/compare/v3.4.0...v3.5.0) (2023-06-08)
+>
+>
+> #### Features
+>
+> * **api:** allow insights options to be forwarded to Autocomplete ([#1904](https://github.com/algolia/docsearch/issues/1904)) ([26691a5](https://github.com/algolia/docsearch/commit/> 26691a5c8abfe107a6737d66d3f02c2cac50553b))
+>
+>
+>
+> ## [3.4.0](https://github.com/algolia/docsearch/compare/v3.3.5...v3.4.0) (2023-05-24)
+>
+>
+> #### Features
+>
+> * implement maxResultsPerGroup prop ([#1891](https://github.com/algolia/docsearch/issues/1891)) ([f82a733](https://github.com/algolia/docsearch/commit/> f82a73367a02453609454dc26d3cf2b6d901dd75))
+>
+>
+>
+> ### [3.3.5](https://github.com/algolia/docsearch/compare/v3.3.4...v3.3.5) (2023-05-17)
+>
+>
+> #### Bug Fixes
+>
+> * support Chrome autofill when `event.key` is undefined ([#1888](https://github.com/algolia/docsearch/issues/1888)) ([3f15fdb](https://github.com/algolia/docsearch/commit/> 3f15fdb3192b654dda14c36a5780f49fe309329c)), closes [#1887](https://github.com/algolia/docsearch/issues/1887)
+>
+>
+>
+> ### [3.3.4](https://github.com/algolia/docsearch/compare/v3.3.3...v3.3.4) (2023-04-26)
+>
+>
+> #### Bug Fixes
+>
+> * prevent calling `onClose()` when `shiftKey`, `ctrlKey` or `metaKey` is pressed ([#1870](https://github.com/algolia/docsearch/issues/1870)) ([b9a3899](https://github.com/algolia/> docsearch/commit/b9a38991e411c969459c2bac8a75f29576b46906))
+> * type of lvl0 ([#1859](https://github.com/algolia/docsearch/issues/1859)) ([8f48ebb](https://github.com/algolia/docsearch/commit/8f48ebb330c01be426f06d0dea2855e4ca65834b))
+>
 
 # [3.4.0-7](https://github.com/typesense/docsearch.js/compare/v3.4.0-5...v3.4.0-7) (2023-03-21)
 
