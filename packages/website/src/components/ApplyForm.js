@@ -43,6 +43,9 @@ function ApplyForm() {
     formData.forEach(function (value, key) {
       data[key] = value;
     });
+    if (!data.repoURL) {
+      data.repoURL = 'https://www.github.com/typesense/docsearch.js';
+    }
     const body = JSON.stringify(data);
 
     fetch(action, {
@@ -161,22 +164,18 @@ function ApplyForm() {
           key="repoURL"
           className="apply-text"
         >
-          Repository URL
+          Repository URL (Optional)
           <Input
-            required={true}
+            required={false}
             id="repoURL"
             type="url"
             name="repoURL"
-            aria-label="The URL of your project repository"
+            aria-label="(Optional) The URL of your project repository"
             value={repo}
             placeholder="https://github.com/algolia/docsearch, https://gitlab.com/gitlab-org/gitlab, etc..."
             onChange={handleSetRepo}
           />
         </LabelText>
-
-        <Text small={true} className="uil-pv-8 uil-d-block apply-text">
-          We will use this link to determine if your project is open-source.
-        </Text>
 
         <div className="uil-ph-32 uil-d-flex uil-fxd-column">
           <LabelText
@@ -189,29 +188,12 @@ function ApplyForm() {
               required={true}
               id="public"
               name="public"
-              aria-label="Confirm my website is publicly available"
+              aria-label="Confirm my website is a publicly available developer documentation or a technical blog."
               type="checkbox"
               className="uil-mr-8"
             />
-            My website is publicly available
-          </LabelText>
-
-          <LabelText
-            className="uil-pt-12 apply-text"
-            tag="label"
-            htmlFor="opensource"
-            key="opensource"
-          >
-            <input
-              required={true}
-              id="opensource"
-              name="opensource"
-              aria-label="Confirm my website is an technical documentation of an open-source project or technical blog"
-              type="checkbox"
-              className="uil-mr-8"
-            />
-            My website is a technical documentation of an open-source project or
-            a technical blog
+            My website is a publicly available developer documentation or a
+            technical blog.
           </LabelText>
 
           <LabelText
@@ -224,6 +206,30 @@ function ApplyForm() {
               required={true}
               id="owner"
               name="owner"
+              aria-label="Confirm I am the owner of the website, or otherwise have obtained and
+              continue to maintain any required consents necessary to use
+              DocSearch on the requested domain. And I have read the checklist."
+              type="checkbox"
+              className="uil-mr-8"
+            />
+            I am the owner of the website, or otherwise have obtained and
+            continue to maintain any required consents necessary to use
+            DocSearch on the requested domain. And I have{' '}
+            <InlineLink href={withBaseUrl('docs/who-can-apply')}>
+              read the checklist.
+            </InlineLink>
+          </LabelText>
+
+          <LabelText
+            className="uil-pt-12 apply-text"
+            tag="label"
+            htmlFor="opensource"
+            key="opensource"
+          >
+            <input
+              required={true}
+              id="opensource"
+              name="opensource"
               aria-label="Confirm I am owner of the website"
               type="checkbox"
               className="uil-mr-8"
@@ -232,6 +238,7 @@ function ApplyForm() {
             <InlineLink href={withBaseUrl('docs/who-can-apply')}>
               read the checklist
             </InlineLink>
+            .
           </LabelText>
 
           <Button
@@ -247,8 +254,8 @@ function ApplyForm() {
         </div>
 
         <Text small={true} className="uil-ta-center">
-          <InlineLink href="https://www.algolia.com/policies/terms">
-            Refer to Algolia's Privacy Policy for more information on how we use
+          <InlineLink href="https://cloud.typesense.org/legal/privacy">
+            Refer to Typesense's Privacy Policy for more information on how we use
             and protect your data
           </InlineLink>
         </Text>
